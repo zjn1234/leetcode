@@ -2,6 +2,12 @@
 #include <stdlib.h>
 
 
+/*
+ *Give an array of integers, return indices of the two numbers such that they add
+ *up to specific target. assume that each input would have exactly one solution ,
+ *you may not use the same element twice.
+ * */
+
 int* twoSum(int* nums, int numsSize, int target) 
 {
     if(NULL == nums)
